@@ -1,4 +1,4 @@
-package main.java.templater;
+package templater;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
