@@ -32,7 +32,7 @@
 					<appendAssemblyId>false</appendAssemblyId>
 					<archive>
 						<manifest>
-							<mainClass>main.Main</mainClass>
+							<mainClass>main.java.main.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
