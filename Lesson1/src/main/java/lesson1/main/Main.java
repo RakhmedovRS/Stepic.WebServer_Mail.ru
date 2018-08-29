@@ -1,9 +1,9 @@
-package main;
+package lesson1.main;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import servlets.AllRequestsServlet;
+import lesson1.servlets.AllRequestsServlet;
 
 /**
  * Точка входа

@@ -1,4 +1,4 @@
-package accounts;
+package lesson2.accounts;
 
 import java.util.HashMap;
 import java.util.Map;

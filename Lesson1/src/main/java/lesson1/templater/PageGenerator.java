@@ -1,4 +1,4 @@
-package templater;
+package lesson1.templater;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

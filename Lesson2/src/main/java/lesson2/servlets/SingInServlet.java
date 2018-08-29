@@ -1,7 +1,7 @@
-package servlets;
+package lesson2.servlets;
 
-import accounts.ProfileService;
-import accounts.UserProfile;
+import lesson2.accounts.ProfileService;
+import lesson2.accounts.UserProfile;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

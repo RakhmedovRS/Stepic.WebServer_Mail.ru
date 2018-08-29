@@ -1,7 +1,7 @@
-package servlets;
+package lesson3.servlets;
 
-import accounts.ProfileService;
-import accounts.UserProfile;
+import lesson3.accounts.ProfileService;
+import lesson3.databaseservice.datasets.User;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author rassoll
- * @created 18.08.2018
+ * @created 26.08.2018
  */
 public class SingUpServlet extends HttpServlet
 {
@@ -46,7 +46,7 @@ public class SingUpServlet extends HttpServlet
 			return;
 		}
 
-		profileService.addNewUser(new UserProfile(login, password));
+		profileService.addNewUser(new User(login, password));
 
 		response.setStatus(HttpServletResponse.SC_OK);
 	}

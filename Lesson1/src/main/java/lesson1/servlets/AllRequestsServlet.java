@@ -1,6 +1,6 @@
-package servlets;
+package lesson1.servlets;
 
-import templater.PageGenerator;
+import lesson1.templater.PageGenerator;
 
 import java.io.IOException;
 import java.util.HashMap;

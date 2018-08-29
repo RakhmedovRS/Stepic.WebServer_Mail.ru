@@ -1,4 +1,4 @@
-package accounts;
+package lesson2.accounts;
 
 /**
  * Профиль пользователя
