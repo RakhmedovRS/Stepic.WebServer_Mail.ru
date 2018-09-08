@@ -9,6 +9,7 @@
         <module name="Lesson1" />
         <module name="Lesson2" />
         <module name="Lesson3" />
+        <module name="Lesson4" />
         <module name="WebServer_Mail.ru" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="Lesson1" target="1.8" />
       <module name="Lesson2" target="1.8" />
       <module name="Lesson3" target="1.8" />
+      <module name="Lesson4" target="1.8" />
       <module name="WebServer_Mail.ru" target="1.5" />
     </bytecodeTargetLevel>
   </component>
