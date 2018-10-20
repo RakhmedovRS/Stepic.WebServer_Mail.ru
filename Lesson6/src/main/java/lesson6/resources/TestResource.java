@@ -1,4 +1,4 @@
-package resources;
+package lesson6.resources;
 
 /**
  * @author rassoll

@@ -1,4 +1,4 @@
-package reflection;
+package lesson6.reflection;
 
 import java.lang.reflect.Field;
 

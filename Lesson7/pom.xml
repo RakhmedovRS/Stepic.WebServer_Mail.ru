@@ -4,15 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Lesson6</groupId>
-	<artifactId>Lesson6</artifactId>
+	<groupId>Lesson7</groupId>
+	<artifactId>Lesson7</artifactId>
 	<version>1</version>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<org.eclipse.jetty.version>9.3.0.M1</org.eclipse.jetty.version>
-		<org.apache.logging.log4j.version>2.2</org.apache.logging.log4j.version>
 	</properties>
 
 	<build>
@@ -34,7 +32,7 @@
 					<appendAssemblyId>false</appendAssemblyId>
 					<archive>
 						<manifest>
-							<mainClass>lesson6.main.Main</mainClass>
+							<mainClass>lesson7.main.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -51,33 +49,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<dependencies>
-
-		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-server</artifactId>
-			<version>${org.eclipse.jetty.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-webapp</artifactId>
-			<version>${org.eclipse.jetty.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-			<version>${org.apache.logging.log4j.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>${org.apache.logging.log4j.version}</version>
-		</dependency>
-
-	</dependencies>
 
 </project>

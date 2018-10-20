@@ -1,4 +1,4 @@
-package sax;
+package lesson6.sax;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;

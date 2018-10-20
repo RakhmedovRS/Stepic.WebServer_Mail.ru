@@ -1,5 +1,5 @@
-<class name="resources.TestResource">
-	<name>resources</name>
+<class name="lesson6.resources.TestResource">
+	<name>lesson6.resources</name>
 	<name>tully</name>
 	<age>10</age>
 </class>

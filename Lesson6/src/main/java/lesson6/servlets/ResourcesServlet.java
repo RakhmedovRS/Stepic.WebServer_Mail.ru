@@ -1,8 +1,8 @@
-package servlets;
+package lesson6.servlets;
 
-import resources.ResourceServerController;
-import resources.TestResourceI;
-import sax.ReadXMLFileSAX;
+import lesson6.resources.ResourceServerController;
+import lesson6.resources.TestResourceI;
+import lesson6.sax.ReadXMLFileSAX;
 
 import java.io.IOException;
 import java.lang.management.ManagementFactory;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class ResourcesServlet extends HttpServlet
 {
-	public static final String PAGE_URL = "/resources";
+	public static final String PAGE_URL = "/lesson6/resources";
 	private static TestResourceI testResource;
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
