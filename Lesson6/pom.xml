@@ -11,7 +11,7 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<org.eclipse.jetty.version>9.3.0.M1</org.eclipse.jetty.version>
+		<org.eclipse.jetty.version>11.0.0-alpha0</org.eclipse.jetty.version>
 		<org.apache.logging.log4j.version>2.2</org.apache.logging.log4j.version>
 	</properties>
 
